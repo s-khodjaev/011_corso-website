@@ -1,0 +1,29 @@
+{
+  "name": "011_corso",
+  "version": "1.0.0",
+  "description": "a website built using Bootstrap 5",
+  "keywords": [
+    "corso"
+  ],
+  "homepage": "https://github.com/s-khodjaev/011_corso-website#readme",
+  "bugs": {
+    "url": "https://github.com/s-khodjaev/011_corso-website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-khodjaev/011_corso-website.git"
+  },
+  "license": "MIT",
+  "author": "Shukhrat Khodjaev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.2.0",
+    "bootstrap": "^5.3.8",
+    "sass": "^1.99.0"
+  }
+}
