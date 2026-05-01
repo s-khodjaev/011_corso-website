@@ -15,8 +15,34 @@
   margin: 0 auto;
 }
 
+.invitation .col-md-10 {
+  background:
+    linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('../img/invitation-background.jpg') center center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
 @media (max-width: 992px) {
   .navbar {
     background: var(--bs-dark);
+  }
+
+  .header {
+    height: 800px !important;
+    min-height: 800px !important;
+  }
+
+  .register {
+    padding: 40px 0 !important;
+  }
+
+  .register h2 {
+    text-align: center;
+  }
+
+  .summary {
+    margin-top: 0 !important;
+    width: 90% !important;
   }
 }
